@@ -9,3 +9,5 @@ Equipment used
 - Raspberry Pi 4
 - PIR Motion Sensor
 - External Speaker (MiniRig 2 in my case)
+
+Cron is then used to launch the .sh script upon booting, a 30 second delay when scheduling the .sh file is recommended, to allow the system to boot up properly. 
